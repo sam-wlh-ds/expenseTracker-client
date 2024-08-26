@@ -1,0 +1,150 @@
+// Live Sass Converter extension -> scss to css
+
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+// $primary: red;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+/* Basic reset for margin and padding */
+/* Basic reset for margin and padding */
+// body, ul {
+//     margin: 0;
+//     padding: 0;
+// }
+
+/* Basic sidebar styles */
+
+
+.sidebar {
+  width: 170px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+}
+
+.sidebar.show {
+  transform: translateX(0);
+}
+
+/* Button styles */
+.s-toggle {
+  background: #333;
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.s-toggle-closed {
+    background: white;
+    color: #333;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    left: 10px;
+}
+
+/* Navigation links */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.nav-link:hover {
+  background-color: #575757;
+}
+
+.nav-redirects {
+    text-align: center;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+}
+
+.nav ul{
+    list-style: none;
+    padding: 0; /* Optional: Removes default padding */
+    margin: 0; /* Optional: Removes default margin */
+}
+
+.main-open{
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    z-index: -1;
+}
+
+.main-close{
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+}
+
+.home-intro{
+    height: 50%;
+}
+
+.card-style{
+    width: 30rem;
+}
+
+.inline{
+    display: inline-flex;
+}
+
+.form-style{
+    width: 40rem;
+}
+
+.nav-style{
+    width: 280px;
+    height: 100vh;
+}
+
+.bottom{
+    bottom: 0%;
+}
+
+.sideBySide{
+    display: flex; /* Use flexbox to align children side by side */
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-content{
+    margin-top: 5%;
+}
+
+.settings-content{
+    margin-top: 5%;
+}
+.dashboard-card{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 5px;
+}
+
+.horizontal-card-style{
+    width: fit-content;
+}
+

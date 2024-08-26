@@ -1,0 +1,23 @@
+// Before Login
+<APP>
+    <NAV> 
+        LOGIN
+        REGISTER
+    </NAV>
+    <ROOT>
+        CONTENT
+    </ROOT>
+</APP>
+
+// After Login
+<APP>
+    <NAV> 
+        DASHBOARD
+        STATISTICS
+        TRANSACTION
+        SETTINGS
+    </NAV>
+    <ROOT>
+        CONTENT
+    </ROOT>
+</APP>

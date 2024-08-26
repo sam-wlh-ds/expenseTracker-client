@@ -16,25 +16,25 @@ function NavBar({current}){
                 <hr/>
                 <ul className="nav nav-pills flex-column mb-auto">
                 <li className="nav-item">
-                    <Link to={`/Dashboard`} className={current=="Dashboard"? "nav-link  active":"nav-link link-body-emphasis"}>
+                    <Link to={`/dashboard`} className={current=="Dashboard"? "nav-link  active":"nav-link link-body-emphasis"}>
                     {/* <svg className="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"></use></svg> */}
                     Dashboard
                     </Link>
                 </li>
                 <li>
-                    <Link to={`/Statistics`} className={current=="Statistics"? "nav-link  active":"nav-link link-body-emphasis"}>
+                    <Link to={`/statistics`} className={current=="Statistics"? "nav-link  active":"nav-link link-body-emphasis"}>
                     {/* <svg className="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg> */}
                     Statistics
                     </Link>
                 </li>
                 <li>
-                    <Link to={`/Transaction`} className={current=="Transaction"? "nav-link  active":"nav-link link-body-emphasis"}>
+                    <Link to={`/transaction`} className={current=="Transaction"? "nav-link  active":"nav-link link-body-emphasis"}>
                     {/* <svg className="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"></use></svg> */}
                     Transaction
                     </Link>
                 </li>
                 <li>
-                    <Link to={`/Settings`}  className={current=="Settings"? "nav-link  active":"nav-link link-body-emphasis"}>
+                    <Link to={`/settings`}  className={current=="Settings"? "nav-link  active":"nav-link link-body-emphasis"}>
                     {/* <svg className="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"></use></svg> */}
                     Settings
                     </Link>

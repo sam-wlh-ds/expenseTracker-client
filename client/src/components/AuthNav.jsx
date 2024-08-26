@@ -42,10 +42,10 @@ function AuthNavBar() {
       <ToggleButton cls={"s-toggle btn btn-sm btn-outline-secondary"} tog={toggleSidebar}/>
       <ul className='nav-redirects'>
         <li>
-          <Link to="/Login" className="nav-link active">Login</Link>
+          <Link to="/login" className="nav-link active">Login</Link>
         </li>
         <li>
-          <Link to="/Register" className="nav-link active">Register</Link>
+          <Link to="/register" className="nav-link active">Register</Link>
         </li>
       </ul>
     </nav>
